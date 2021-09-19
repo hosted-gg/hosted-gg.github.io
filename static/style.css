@@ -1,0 +1,180 @@
+*:not(.steps-segment) {
+    background: #36393e;
+    color: #fff;
+}
+b {
+    background: #424549 !important;
+}
+body {
+    background: #36393e !important;
+    height: 100em;
+}
+button, .button {
+    background: #586AEA !important;
+    border-color: #586AEA !important;
+    color: #fff !important;
+}
+.dots {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.dots .dot {
+    width: 4px;
+    height: 4px;
+    margin: 0 2px;
+    background-color: #fff !important;
+    opacity: .1;
+    border-radius: 50%;
+}
+.pp {
+    width: 2.5em;
+    height: 2.5em;
+    margin: auto 1em;
+    border-radius: 5em;
+}
+.logo {
+    width: 6em;
+    margin-left: 1em;
+}
+a:hover {
+    background-color: #424549 !important;
+    color: #363636;
+}
+a {
+    color: #586AEA !important;
+}
+.tabs li {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.tabs a:hover {
+    color: #fff !important;
+    background: #36393e;
+}
+.tabs ul {
+    border-bottom-color: #dbdbdb;
+    border-bottom-style: unset;
+    border-bottom-width: 0px;
+}
+.box, .media, .media p, .media strong, .media img, .media figure, .media nav, .media a, .media small, .media div, .media span i::before, .media-content {
+    background-color: #424549 !important;
+}
+strong {
+    color: #fff;
+}
+.children-is-centered {
+    display: flex;
+    justify-content: center;
+}
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: #fff !important;
+}
+.content blockquote {
+    background-color: #424549;
+}
+.content blockquote a {
+    background-color: #424549 !important;
+}
+.app {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+}
+.title, .subtitle {
+    color: #fff !important;
+}
+.tabs.center {
+    margin-left: 7em !important;
+}
+.form-step {
+    margin: auto;
+    margin-top: 1em;
+}
+.modal-content {
+    overflow: unset;
+}
+.steps-segment::after, .steps-segment span, .steps-segment i::before {
+    background: #424549 !important;
+}
+.steps-segment.is-active::after, .steps-segment.is-active span, .steps-segment.is-active i::before {
+    background: #586AEA !important;
+}
+.steps-marker.is-hollow, .steps-marker.is-active {
+    border: .3em solid #586AEA !important;
+}
+.is-centered {
+    margin: auto    ;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+html ::selection {
+    color: #424549 !important;
+    background: #586AEA !important;
+}
+.radio:hover {
+    color: unset !important;
+}
+.is-disable {
+    display: none;
+}
+.file-icon, .file-icon i, .file-label {
+    background: none !important;
+    color: #586AEA;
+}
+.tagsinput .tag.is-active {
+    background: #586AEA !important;
+    color: #fff !important;
+}
+.tagsinput.field.is-grouped.is-grouped-multiline.input {
+    border: 0px !important;
+    border-color: unset !important;
+    background-color: unset !important;
+}
+.repo {
+    display: flex;
+    flex-direction: column;
+}
+#repo_files {
+    display: flex;
+    flex-direction: column;
+}
+.repo .file {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10em;
+}
+.repo .file .fileinfos.closed {
+    display: none;
+}
+.repo .file .fileinfos {
+    display: flex;
+    flex-direction: column;
+}
+.filepath {
+    background: #282b30;
+    height: max-content;
+    margin-right: 2em;
+}
+#repo_size_hidden, #repo_files_hidden {
+    display: none;
+}
+.code {
+    height: 0;
+    font-size: 0;
+}
+.code.is-active {
+    background: #1e2124 !important;
+    padding: .5em;
+    height: max-content;
+    width: 100%;
+    font-size: unset !important;
+    font-family: Ubuntu, mono, sans-serif;
+}
+/* #586AEA */
+/* #424549 */
+/* #36393e */
+/* #282b30 */
+/* #1e2124 */

@@ -1,2 +1,2 @@
-# hosted-gg.github.io
-An presentation of hosted-gg !
+# Hosted-gg presentation !
+A presentation of hosted-gg !
